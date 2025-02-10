@@ -1,0 +1,27 @@
+url: /Tickets/
+menu:
+  - text: Home
+    url: /
+    highlight: true
+blocks:
+  - type: header
+    title: Confirma tu asistencia
+  - type: tickets
+    id: tickets
+    features:
+      - id: welcome_pack
+        text: Welcome Pack
+    tickets:
+      - name: Visita Privada
+        pricing: Socios ADICS - Gratis
+        img: /files/tickets/ticket.png
+        buy:
+          text: Registrate
+          url: '#'
+          disabled: false
+        features:
+          - welcome_pack
+title: Confirma tu asistencia
+metas:
+  image: ''
+only_state: pre-event

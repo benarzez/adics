@@ -1,0 +1,107 @@
+menu:
+  - text: Calendar
+    url: '#calendar'
+    highlight: false
+  - text: Location
+    url: '#location'
+    highlight: false
+  - text: Ponentes
+    url: '#name-1'
+    highlight: true
+  - text: Contact
+    url: '#contact'
+    highlight: false
+blocks:
+  - type: header
+    title: '![Image](/files/logos/logo-adics-negro.png)'
+    description: '## Visita privada a un almacén automatizado con Kardex AutoStore.'
+  - type: hero
+    title: ✨¡Te invitamos a nuestro primer evento exclusivo!✨
+    text: "\U0001F4C5 Fecha: 11 de marzo\r\n\r\n\U0001F68D Incluye transporte desde Madrid, salida 8:30 desde Chamartín\r\n\r\n\U0001F3ED Visita guiada al almacén automatizado\r\n\r\n\U0001F91D Comida y networking con una paella en la playa\r\nVuelta  a Chamartin sobre las 20:00\r\n\r\n\U0001F4A1 Asistencia gratuita para asociados preinscritos Las plazas son limitadas, así que confirma tu asistencia cuanto antes.\r\n"
+  - type: separator
+    width: is-default
+  - type: multitrack-calendar
+    title: Calendario
+    id: calendar
+    fullwidth: false
+    days:
+      - title: Miércoles 11 de marzo de 2025
+        tracks:
+          - title: Kardex Sagunto
+            id: AS1
+        events:
+          - time: '8:30'
+            title: Salida Estación Clara Campoamor - Chamartin
+            subtitle: Viaje a Valencia
+            track: AS1
+            speakers: []
+          - time: '10:45'
+            title: Salida hacia Autostore Sagunto
+            subtitle: Autobus
+            track: AS1
+            speakers: []
+          - time: '11:30'
+            title: Visita Almacén Kardex con Autostore
+            subtitle: Sagunto
+            speakers: []
+          - time: '13:30'
+            title: Comida
+            track: AS1
+            speakers: []
+          - time: '16:30'
+            title: Traslado Estación Joaquín Sorolla
+            speakers: []
+          - time: '17:30'
+            title: Salida Estación Joaquín Sorolla
+            speakers: []
+  - type: separator
+    width: is-default
+  - type: location
+    title: Ubicación
+    id: location
+    theme: is-light width-box box-fill
+    caption: >-
+      <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12282.500390255773!2d-0.2871789445407036!3d39.68064714507454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd601514205e00e7%3A0xee405de53b263ab1!2s46500%20Sagunto%2C%20Valencia!5e0!3m2!1ses!2ses!4v1739139371661!5m2!1ses!2ses"
+      width="600" height="450" style="border:0;" allowfullscreen=""
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    directions:
+      - title: Sagunto
+        description: '46500, Sagunto'
+        icon: map-pin
+  - type: separator
+    width: is-default
+  - type: speakers
+    title: Ponentes
+    speakers:
+      - name: Carmelo Asegurado
+        id: name-1
+        company: Adics
+        role: Presidente
+        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at odio venenatis, laoreet libero ut, lobortis ipsum. Nullam varius turpis vel felis laoreet, ut ornare nisi placerat. Suspendisse volutpat suscipit lorem vitae fermentum.\r\n"
+        image: /files/people/avatar.webp
+        links: []
+      - name: Responsable Kardex
+        id: name-2
+        company: Kardex
+        role: Responsable
+        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at odio venenatis, laoreet libero ut, lobortis ipsum. Nullam varius turpis vel felis laoreet, ut ornare nisi placerat. Suspendisse volutpat suscipit lorem vitae fermentum.\r\n"
+        image: /files/people/avatar.webp
+        links: []
+  - type: separator
+    width: is-full
+  - type: contact
+    title: Contacto
+    id: contact
+    theme: is-light width-box box-fill
+    items:
+      - title: ADICS
+        info: Adics
+        links:
+          - url: 'mailto:adics@gmail.com'
+            icon: envelope
+            text: adics@gmail.com
+metas:
+  image: ''
+url: /
+title: ADICS - KARDEX
